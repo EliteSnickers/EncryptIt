@@ -7,8 +7,6 @@ from Crypto.Util.Padding import pad
 from Crypto.Util.Padding import unpad
 import os
 
-#Doing as a test
-
 def browse_file(entry):
     file_path = filedialog.askopenfilename()
     entry.delete(0, tk.END)
